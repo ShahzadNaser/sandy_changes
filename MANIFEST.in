@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sandy_changes *.css
+recursive-include sandy_changes *.csv
+recursive-include sandy_changes *.html
+recursive-include sandy_changes *.ico
+recursive-include sandy_changes *.js
+recursive-include sandy_changes *.json
+recursive-include sandy_changes *.md
+recursive-include sandy_changes *.png
+recursive-include sandy_changes *.py
+recursive-include sandy_changes *.svg
+recursive-include sandy_changes *.txt
+recursive-exclude sandy_changes *.pyc
